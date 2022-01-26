@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 1.5em;
+}
+
+.france{
+    width: 300px;
+    min-height: 200px;
+    display: flex;
+}
+
+.left, .middle, .right{
+    width: 100px;
+}
+
+.left{
+    background-color: blue;
+}
+
+.middle{
+    background-color: whitesmoke
+}
+
+.right{
+    background-color: red;
+}
+
+.japan{
+    width: 300px;
+    min-height: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.circle{
+    width: 120px;
+    min-height: 120px;
+    margin: auto;
+    background-color: red;
+    border-radius: 50%;
+}
